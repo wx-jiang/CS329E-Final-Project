@@ -14,6 +14,11 @@
 		71F1CE7F28F77F9700E9B85E /* BashGate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE7D28F77F9700E9B85E /* BashGate.xcdatamodeld */; };
 		71F1CE8128F77F9800E9B85E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F1CE8028F77F9800E9B85E /* Assets.xcassets */; };
 		71F1CE8428F77F9800E9B85E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F1CE8228F77F9800E9B85E /* LaunchScreen.storyboard */; };
+		71F1CE8C28F78A8600E9B85E /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE8B28F78A8600E9B85E /* RegisterVC.swift */; };
+		71F1CE8E28F78ADE00E9B85E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE8D28F78ADE00E9B85E /* HomeVC.swift */; };
+		71F1CE9028F78B4A00E9B85E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE8F28F78B4A00E9B85E /* ProfileVC.swift */; };
+		71F1CE9228F78BA500E9B85E /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE9128F78BA500E9B85E /* PostVC.swift */; };
+		71F1CE9428F78BD800E9B85E /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE9328F78BD800E9B85E /* CreatePostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		71F1CE8028F77F9800E9B85E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71F1CE8328F77F9800E9B85E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71F1CE8528F77F9800E9B85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F1CE8B28F78A8600E9B85E /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		71F1CE8D28F78ADE00E9B85E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		71F1CE8F28F78B4A00E9B85E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		71F1CE9128F78BA500E9B85E /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		71F1CE9328F78BD800E9B85E /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,11 @@
 				71F1CE7428F77F9700E9B85E /* AppDelegate.swift */,
 				71F1CE7628F77F9700E9B85E /* SceneDelegate.swift */,
 				71F1CE7828F77F9700E9B85E /* ViewController.swift */,
+				71F1CE9328F78BD800E9B85E /* CreatePostVC.swift */,
+				71F1CE9128F78BA500E9B85E /* PostVC.swift */,
+				71F1CE8F28F78B4A00E9B85E /* ProfileVC.swift */,
+				71F1CE8D28F78ADE00E9B85E /* HomeVC.swift */,
+				71F1CE8B28F78A8600E9B85E /* RegisterVC.swift */,
 				71F1CE7A28F77F9700E9B85E /* Main.storyboard */,
 				71F1CE8028F77F9800E9B85E /* Assets.xcassets */,
 				71F1CE8228F77F9800E9B85E /* LaunchScreen.storyboard */,
@@ -143,8 +158,13 @@
 			files = (
 				71F1CE7F28F77F9700E9B85E /* BashGate.xcdatamodeld in Sources */,
 				71F1CE7928F77F9700E9B85E /* ViewController.swift in Sources */,
+				71F1CE9028F78B4A00E9B85E /* ProfileVC.swift in Sources */,
 				71F1CE7528F77F9700E9B85E /* AppDelegate.swift in Sources */,
+				71F1CE8E28F78ADE00E9B85E /* HomeVC.swift in Sources */,
+				71F1CE9428F78BD800E9B85E /* CreatePostVC.swift in Sources */,
 				71F1CE7728F77F9700E9B85E /* SceneDelegate.swift in Sources */,
+				71F1CE9228F78BA500E9B85E /* PostVC.swift in Sources */,
+				71F1CE8C28F78A8600E9B85E /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
