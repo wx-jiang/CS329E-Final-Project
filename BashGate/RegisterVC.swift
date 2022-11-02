@@ -6,9 +6,14 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class RegisterVC: UIViewController {
-
+    @IBOutlet weak var emailText: UITextField!
+    
+    @IBOutlet weak var pwdText: UITextField!
+    @IBOutlet weak var confirmPwdText: UITextField!
+    @IBOutlet weak var usernameText: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -107,28 +107,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Addres" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P2d-vr-nv3">
-                                <rect key="frame" x="117" y="144" width="156" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOw-Po-UpD">
+                                <rect key="frame" x="95" y="201" width="200" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="fgS-qW-esG"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOw-Po-UpD">
-                                <rect key="frame" x="117" y="198" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="School" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9XK-dq-Ul5">
+                                <rect key="frame" x="95" y="255" width="200" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="7rk-Te-sN0"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="School" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9XK-dq-Ul5">
-                                <rect key="frame" x="117" y="265" width="97" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LUv-Jl-FDI">
+                                <rect key="frame" x="95" y="319" width="200" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Cim-5v-QGg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VG9-Yl-Kxv">
+                                <rect key="frame" x="95" y="373" width="200" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Ab4-vK-YRe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bip-lD-Hku">
+                                <rect key="frame" x="152" y="453" width="87" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Register"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Addres" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P2d-vr-nv3">
+                                <rect key="frame" x="95" y="147" width="200" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0ni-fx-Wa4"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jmL-bj-iqc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LUv-Jl-FDI" firstAttribute="top" secondItem="9XK-dq-Ul5" secondAttribute="bottom" constant="30" id="3V3-Xa-iAm"/>
+                            <constraint firstItem="eOw-Po-UpD" firstAttribute="top" secondItem="P2d-vr-nv3" secondAttribute="bottom" constant="20" id="8t1-g4-Bgu"/>
+                            <constraint firstItem="VG9-Yl-Kxv" firstAttribute="centerX" secondItem="fjs-33-cYd" secondAttribute="centerX" id="KNN-bb-dhm"/>
+                            <constraint firstItem="P2d-vr-nv3" firstAttribute="centerX" secondItem="fjs-33-cYd" secondAttribute="centerX" id="N0e-pi-LK9"/>
+                            <constraint firstItem="eOw-Po-UpD" firstAttribute="centerX" secondItem="fjs-33-cYd" secondAttribute="centerX" id="OmN-g1-krC"/>
+                            <constraint firstItem="9XK-dq-Ul5" firstAttribute="top" secondItem="eOw-Po-UpD" secondAttribute="bottom" constant="20" id="bCk-Xs-pjc"/>
+                            <constraint firstItem="LUv-Jl-FDI" firstAttribute="centerX" secondItem="fjs-33-cYd" secondAttribute="centerX" id="nFk-ZQ-mFs"/>
+                            <constraint firstItem="9XK-dq-Ul5" firstAttribute="centerX" secondItem="fjs-33-cYd" secondAttribute="centerX" id="sht-z0-JmI"/>
+                            <constraint firstItem="VG9-Yl-Kxv" firstAttribute="top" secondItem="LUv-Jl-FDI" secondAttribute="bottom" constant="20" id="w8p-eF-zDz"/>
+                            <constraint firstItem="P2d-vr-nv3" firstAttribute="top" secondItem="jmL-bj-iqc" secondAttribute="top" constant="100" id="wov-H9-XEA"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmPwdText" destination="VG9-Yl-Kxv" id="uCB-4m-s5i"/>
+                        <outlet property="emailText" destination="P2d-vr-nv3" id="2fH-67-KBL"/>
+                        <outlet property="pwdText" destination="LUv-Jl-FDI" id="vPj-pO-9S1"/>
+                        <outlet property="usernameText" destination="eOw-Po-UpD" id="L0C-JA-XVF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AlQ-R5-wwK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,7 +193,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jGh-l7-xoz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1424" y="-8"/>
+            <point key="canvasLocation" x="1472" y="-45"/>
         </scene>
     </scenes>
     <resources>
