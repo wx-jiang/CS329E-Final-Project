@@ -19,6 +19,7 @@
 		71F1CE9028F78B4A00E9B85E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE8F28F78B4A00E9B85E /* ProfileVC.swift */; };
 		71F1CE9228F78BA500E9B85E /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE9128F78BA500E9B85E /* PostVC.swift */; };
 		71F1CE9428F78BD800E9B85E /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1CE9328F78BD800E9B85E /* CreatePostVC.swift */; };
+		74E35C622917196D00205F97 /* ProfileDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E35C612917196D00205F97 /* ProfileDetailVC.swift */; };
 		74E88403291331670083423D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74E88402291331670083423D /* GoogleService-Info.plist */; };
 		74E884062913320A0083423D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 74E884052913320A0083423D /* FirebaseAuth */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		71F1CE8F28F78B4A00E9B85E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		71F1CE9128F78BA500E9B85E /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		71F1CE9328F78BD800E9B85E /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		74E35C612917196D00205F97 /* ProfileDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailVC.swift; sourceTree = "<group>"; };
 		74E88402291331670083423D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				71F1CE8F28F78B4A00E9B85E /* ProfileVC.swift */,
 				71F1CE8D28F78ADE00E9B85E /* HomeVC.swift */,
 				71F1CE8B28F78A8600E9B85E /* RegisterVC.swift */,
+				74E35C612917196D00205F97 /* ProfileDetailVC.swift */,
 				71F1CE7A28F77F9700E9B85E /* Main.storyboard */,
 				71F1CE8028F77F9800E9B85E /* Assets.xcassets */,
 				71F1CE8228F77F9800E9B85E /* LaunchScreen.storyboard */,
@@ -171,6 +174,7 @@
 				71F1CE7F28F77F9700E9B85E /* BashGate.xcdatamodeld in Sources */,
 				71F1CE7928F77F9700E9B85E /* ViewController.swift in Sources */,
 				71F1CE9028F78B4A00E9B85E /* ProfileVC.swift in Sources */,
+				74E35C622917196D00205F97 /* ProfileDetailVC.swift in Sources */,
 				71F1CE7528F77F9700E9B85E /* AppDelegate.swift in Sources */,
 				71F1CE8E28F78ADE00E9B85E /* HomeVC.swift in Sources */,
 				71F1CE9428F78BD800E9B85E /* CreatePostVC.swift in Sources */,
