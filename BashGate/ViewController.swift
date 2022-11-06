@@ -13,9 +13,41 @@ class ViewController: UIViewController {
     @IBOutlet weak var pwdText: UITextField!
     var segue_state:Bool = false
     let segueIdentifier:String = "loginSegueIdentifier"
+    
+    private let imageView: UIImageView = {
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 150, height:150))
+        imageView.image = UIImage(named: "Subject")
+        return imageView
+    }()
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(imageView)
         // Do any additional setup after loading the view.
+    }
+    override func viewDidLayoutSubviews () {
+        super.viewDidLayoutSubviews ()
+        imageView.center = view.center
+        DispatchQueue.main.asyncAfter(deadline: .now()+0.5, execute: self.animate)
+        animate()
+    }
+    private func animate(){
+        UIView.animate(withDuration: 1, animations: {
+            let size = self.view.frame.size.width * 3
+            let diffX = size - self.view.frame.size.width
+            let diffY = self.view.frame.size.height - size
+            
+            self.imageView.frame = CGRect(x: -(diffX/2),
+                                          y: diffY/2,
+                                          width: size,
+                                          height: size)
+        })
+        
+        UIView.animate(withDuration: 2, animations: {
+            self.imageView.alpha = 0
+        })
+        
     }
     
     @IBAction func loginPressed(_ sender: Any) {
