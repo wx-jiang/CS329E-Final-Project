@@ -17,18 +17,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        if identifier == "loginSegueIdentifier"{
-            if segue_state == true {
-                print("in segue true")
-                return true
-            } else if segue_state == false {
-                print("in segue false")
-                return false
-            }
-        }
-        return true
-    }
     
     @IBAction func loginPressed(_ sender: Any) {
         if emailText.text?.isEmpty == true || pwdText.text?.isEmpty == true{
@@ -38,7 +26,7 @@ class ViewController: UIViewController {
             present(missingAlert,animated: true)
         }
     else{
-        Auth.auth().signIn(withEmail: emailText.text!, password: pwdText.text!) {
+        Auth.auth().signIn(withEmail: emailText.text!, password: pwdText.text!) { [self]
             authResult, error in
             if (error as NSError?) != nil {
                 print("error")
@@ -48,6 +36,7 @@ class ViewController: UIViewController {
             } else {
                 print("in success login")
                 self.segue_state = true
+                self.performSegue(withIdentifier: segueIdentifier, sender: Any?.self)
             }
         }
     }
