@@ -7,23 +7,37 @@
 
 import UIKit
 
-class CreatePostVC: UIViewController {
-
+class CreatePostVC: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate  {
+    
+    @IBOutlet weak var imgView: UIImageView!
+    
+    @IBOutlet weak var uploadBtn: UIButton!
+    var imagePicker = UIImagePickerController()
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+    //button function{
+    @IBAction func buttonPressed(_ sender: Any){
+    if UIImagePickerController.isSourceTypeAvailable(.savedPhotosAlbum){
+                    print("Button capture")
 
-    /*
-    // MARK: - Navigation
+                    imagePicker.delegate = self
+                    imagePicker.sourceType = .savedPhotosAlbum
+                    imagePicker.allowsEditing = false
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+                    present(imagePicker, animated: true, completion: nil)
+                }
     }
-    */
+    func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!){
+            self.dismiss(animated: true, completion: { () -> Void in
 
+            })
+            imgView.image = image
+        }
+    
 }
