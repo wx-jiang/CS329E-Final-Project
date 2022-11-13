@@ -22,7 +22,6 @@
 		7478E1E729175AA600506A57 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478E1E629175AA600506A57 /* LaunchViewController.swift */; };
 		74E35C622917196D00205F97 /* ProfileDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E35C612917196D00205F97 /* ProfileDetailVC.swift */; };
 		74E88403291331670083423D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74E88402291331670083423D /* GoogleService-Info.plist */; };
-		74E884062913320A0083423D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 74E884052913320A0083423D /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E884062913320A0083423D /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +111,6 @@
 			);
 			name = BashGate;
 			packageProductDependencies = (
-				74E884052913320A0083423D /* FirebaseAuth */,
 			);
 			productName = BashGate;
 			productReference = 71F1CE7128F77F9700E9B85E /* BashGate.app */;
@@ -144,7 +141,6 @@
 			);
 			mainGroup = 71F1CE6828F77F9700E9B85E;
 			packageReferences = (
-				74E884042913320A0083423D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 71F1CE7228F77F9700E9B85E /* Products */;
 			projectDirPath = "";
@@ -402,25 +398,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		74E884042913320A0083423D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		74E884052913320A0083423D /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 74E884042913320A0083423D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		71F1CE7D28F77F9700E9B85E /* BashGate.xcdatamodeld */ = {
