@@ -169,13 +169,19 @@
             </objects>
             <point key="canvasLocation" x="3203.7209302325582" y="-306.43776824034336"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Setting View Controller-->
         <scene sceneID="PN9-tv-MbS">
             <objects>
-                <viewController id="g9z-Qb-i3h" customClass="SettingsViewController" sceneMemberID="viewController">
+                <viewController id="g9z-Qb-i3h" customClass="SettingViewController" customModule="BashGate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U8M-qO-Utj">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F7B-Ta-Blm">
+                                <rect key="frame" x="326" y="124" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="WKu-BD-DJI"/>
                         <color key="backgroundColor" red="0.96841138599999999" green="0.94470253660000003" blue="0.86375066869999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>

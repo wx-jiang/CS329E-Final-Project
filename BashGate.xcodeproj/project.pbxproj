@@ -22,6 +22,8 @@
 		7478E1E729175AA600506A57 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478E1E629175AA600506A57 /* LaunchViewController.swift */; };
 		74E35C622917196D00205F97 /* ProfileDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E35C612917196D00205F97 /* ProfileDetailVC.swift */; };
 		74E88403291331670083423D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74E88402291331670083423D /* GoogleService-Info.plist */; };
+		B56D20592921D6C300B1F138 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D20582921D6C300B1F138 /* SettingViewController.swift */; };
+		B56D205B2921E99500B1F138 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D205A2921E99500B1F138 /* SettingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		7478E1E629175AA600506A57 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		74E35C612917196D00205F97 /* ProfileDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailVC.swift; sourceTree = "<group>"; };
 		74E88402291331670083423D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B56D20582921D6C300B1F138 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B56D205A2921E99500B1F138 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				71F1CE8D28F78ADE00E9B85E /* HomeVC.swift */,
 				71F1CE8B28F78A8600E9B85E /* RegisterVC.swift */,
 				74E35C612917196D00205F97 /* ProfileDetailVC.swift */,
+				B56D20582921D6C300B1F138 /* SettingViewController.swift */,
+				B56D205A2921E99500B1F138 /* SettingTableViewCell.swift */,
 				71F1CE7A28F77F9700E9B85E /* Main.storyboard */,
 				71F1CE8028F77F9800E9B85E /* Assets.xcassets */,
 				71F1CE8228F77F9800E9B85E /* LaunchScreen.storyboard */,
@@ -178,9 +184,11 @@
 				71F1CE8E28F78ADE00E9B85E /* HomeVC.swift in Sources */,
 				71F1CE9428F78BD800E9B85E /* CreatePostVC.swift in Sources */,
 				71F1CE7728F77F9700E9B85E /* SceneDelegate.swift in Sources */,
+				B56D205B2921E99500B1F138 /* SettingTableViewCell.swift in Sources */,
 				7478E1E729175AA600506A57 /* LaunchViewController.swift in Sources */,
 				71F1CE9228F78BA500E9B85E /* PostVC.swift in Sources */,
 				71F1CE8C28F78A8600E9B85E /* RegisterVC.swift in Sources */,
+				B56D20592921D6C300B1F138 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
