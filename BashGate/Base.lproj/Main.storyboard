@@ -119,7 +119,7 @@
                         <segue destination="yfN-1K-wKv" kind="relationship" relationship="viewControllers" id="j3F-Sd-2tB"/>
                         <segue destination="fuL-sS-dHz" kind="relationship" relationship="viewControllers" id="SL3-5W-pVv"/>
                         <segue destination="QZT-V2-SQt" kind="relationship" relationship="viewControllers" id="OC9-1z-YpX"/>
-                        <segue destination="g9z-Qb-i3h" kind="relationship" relationship="viewControllers" id="Tc6-3i-iGg"/>
+                        <segue destination="Jr1-Wu-7dL" kind="relationship" relationship="viewControllers" id="Tc6-3i-iGg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DIZ-L9-i3u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -176,20 +176,14 @@
                     <view key="view" contentMode="scaleToFill" id="U8M-qO-Utj">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F7B-Ta-Blm">
-                                <rect key="frame" x="326" y="124" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="WKu-BD-DJI"/>
                         <color key="backgroundColor" red="0.96841138599999999" green="0.94470253660000003" blue="0.86375066869999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="gearshape.2.fill" catalog="system" id="XGa-Lv-WUK"/>
+                    <navigationItem key="navigationItem" id="KWZ-1j-fGg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6i-Xa-qFt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3204" y="1645"/>
+            <point key="canvasLocation" x="4102.3255813953492" y="1644.8497854077254"/>
         </scene>
         <!--PostVC-->
         <scene sceneID="vgg-Nh-WaB">
@@ -326,9 +320,28 @@
             </objects>
             <point key="canvasLocation" x="900" y="256"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QeQ-Ad-NKV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jr1-Wu-7dL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="gearshape.2.fill" catalog="system" id="XGa-Lv-WUK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="1bc-rV-Wu6">
+                        <rect key="frame" x="0.0" y="59" width="430" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="g9z-Qb-i3h" kind="relationship" relationship="rootViewController" id="cme-t4-F9V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qdf-OJ-xzW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3203.7209302325582" y="1644.8497854077254"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="C0c-L4-PHd"/>
+        <segue reference="hR4-8X-uBv"/>
         <segue reference="HMG-iM-yZ7"/>
     </inferredMetricsTieBreakers>
     <resources>
