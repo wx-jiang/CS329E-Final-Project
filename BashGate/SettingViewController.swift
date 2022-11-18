@@ -21,8 +21,8 @@ struct SettingsSwitchOption {
     let title: String
     let icon: UIImage?
     let iconBackgroundColor: UIColor
-    let handler: (() -> Void)
     var isOn: Bool
+    let handler: (() -> Void)
 }
 
 struct SettingsOption {
@@ -66,9 +66,9 @@ class SettingViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func configure() {
         models.append(Section(title: "General", option: [
-            .switchCell(model: SettingsSwitchOption(title: "Wift", icon: UIImage(systemName: "house"), iconBackgroundColor: .systemPink, handler: {
-                
-            }, isOn: true)),
+            .switchCell(model: SettingsSwitchOption(title: "Dark Mode", icon: UIImage(systemName: "moon"), iconBackgroundColor: .black, isOn: true, handler: {
+                print("hello")
+            }))
         ]))
         
         models.append(Section(title: "General", option: [

@@ -51,6 +51,7 @@ class SwitchTableViewCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError()
     }
+    
 
     override func layoutSubviews() {
         super.layoutSubviews()
